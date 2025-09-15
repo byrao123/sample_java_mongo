@@ -29,6 +29,7 @@ public class AppTest extends TestCase {
       System.out.println("Error testing database");
     } finally {
       assertEquals("Seattle, WA", result[0]);
+      assertEquals("Seattle, WA", "Seattle, WA");
     }
   } 
 
